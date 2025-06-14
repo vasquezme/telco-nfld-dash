@@ -7,8 +7,8 @@ from shapely.geometry import Point, Polygon
 import os
 
 # --- Load GeoJSON Data ---
-file_path_points = r"/towers.geojson"
-file_path_buffers = r"/buffers.geojson"
+file_path_points = r"towers.geojson"
+file_path_buffers = r"buffers.geojson"
 
 gdf_points = gpd.read_file(file_path_points)
 gdf_buffers = gpd.read_file(file_path_buffers)
